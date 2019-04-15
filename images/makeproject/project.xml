@@ -53,11 +53,11 @@
         <user_friendly_name>anonymous</user_friendly_name>
     </platform>
     <app>
-        <name>boinc2docker</name>
-        <user_friendly_name>boinc2docker</user_friendly_name>
-    </app>
-    <app>
         <name>leela</name>
         <user_friendly_name>CHESS@home</user_friendly_name>
+    </app>
+    <app>
+        <name>single_job_windows_intelx86</name>
+        <user_friendly_name>Is this needed?</user_friendly_name>
     </app>
 </boinc>
