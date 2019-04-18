@@ -1,0 +1,6 @@
+<job_desc>
+    <task>
+        <application>tom.exe_windows_intelx86_5b0975c5</application>
+        <command_line>-userboinc-passwordsupersecure-run2</command_line>
+    </task>
+</job_desc>

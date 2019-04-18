@@ -1,0 +1,39 @@
+<file_info>
+    <number>0</number>
+</file_info>
+<file_info>
+    <number>1</number>
+</file_info>
+<file_info>
+    <number>2</number>
+</file_info>
+<file_info>
+    <number>3</number>
+    <executable/>
+    <sticky/>
+</file_info>
+<workunit>
+    <file_ref>
+        <file_number>0</file_number>
+        <open_name>libopenblas.dll</open_name>
+        <copy_file/>
+    </file_ref>
+    <file_ref>
+        <file_number>1</file_number>
+        <open_name>lc0.exe</open_name>
+        <copy_file/>
+    </file_ref>
+    <file_ref>
+        <file_number>2</file_number>
+        <open_name>job.xml</open_name>
+    </file_ref>
+    <file_ref>
+        <file_number>3</file_number>
+        <open_name>tom.exe_windows_intelx86_5b0975c5</open_name>
+    </file_ref>
+    <rsc_fpops_est>3600000000000</rsc_fpops_est>
+    <rsc_fpops_bound>86400000000000</rsc_fpops_bound>
+    <rsc_memory_bound>500000000</rsc_memory_bound>
+    <rsc_disk_bound>1000000000</rsc_disk_bound>
+    <delay_bound>604800</delay_bound>
+</workunit>
