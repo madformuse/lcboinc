@@ -1,0 +1,6 @@
+<job_desc>
+    <task>
+        <application>client</application>
+        <command_line>-user boinc -password supersecure -run 2 -train-only -num-games 1</command_line>
+    </task>
+</job_desc>

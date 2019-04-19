@@ -1,0 +1,26 @@
+<version>
+  <file>
+    <physical_name>wrapper_26016_windows_intelx86.exe</physical_name>
+    <main_program/>
+    <logical_name>wrapper</logical_name>
+  </file>
+  <file>
+    <physical_name>tom.exe</physical_name>
+    <logical_name>client</logical_name>
+  </file>
+  <file>
+    <physical_name>lc0.exe</physical_name>
+    <logical_name>lc0</logical_name>
+    <copy_file/>
+  </file>
+  <file>
+    <physical_name>libopenblas.dll</physical_name>
+    <copy_file/>
+  </file>
+  <file>
+    <physical_name>job_1.0.xml</physical_name>
+    <logical_name>job.xml</logical_name>
+  </file>
+  <needs_network/>
+  <is_wrapper/>
+</version>

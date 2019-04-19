@@ -1,0 +1,4 @@
+<workunit>
+    <rsc_fpops_bound>1e12</rsc_fpops_bound>
+    <rsc_fpops_est>1e14</rsc_fpops_est>
+</workunit>

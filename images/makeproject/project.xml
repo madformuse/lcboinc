@@ -54,10 +54,6 @@
     </platform>
     <app>
         <name>leela</name>
-        <user_friendly_name>CHESS@home</user_friendly_name>
-    </app>
-    <app>
-        <name>single_job_windows_intelx86</name>
-        <user_friendly_name>Is this needed?</user_friendly_name>
+        <user_friendly_name>LEELA@home</user_friendly_name>
     </app>
 </boinc>
