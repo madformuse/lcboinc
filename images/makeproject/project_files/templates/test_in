@@ -1,0 +1,6 @@
+<workunit>
+    <rsc_fpops_est>1e12</rsc_fpops_est>
+    <rsc_fpops_bound>1e14</rsc_fpops_bound>
+    <delay_bound>43200</delay_bound>
+    <command_line>-run 2</command_line>
+</workunit>
