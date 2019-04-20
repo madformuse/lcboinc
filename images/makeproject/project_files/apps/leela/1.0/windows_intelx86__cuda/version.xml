@@ -1,0 +1,32 @@
+<version>
+  <file>
+    <physical_name>wrapper_26016_windows_intelx86.exe</physical_name>
+    <main_program/>
+  </file>
+  <file>
+    <physical_name>tom.exe</physical_name>
+    <logical_name>client</logical_name>
+  </file>
+  <file>
+    <physical_name>leela_1.0_cuda_lc0.exe</physical_name>
+    <copy_file/>
+  </file>
+  <file>
+    <physical_name>cublas64_100.dll</physical_name>
+    <copy_file/>
+  </file>
+  <file>
+    <physical_name>cudart64_100.dll</physical_name>
+    <copy_file/>
+  </file>
+  <file>
+    <physical_name>cudnn64_7.dll</physical_name>
+    <copy_file/>
+  </file>
+  <file>
+    <physical_name>leela_1.0_cuda_job.xml</physical_name>
+    <logical_name>job.xml</logical_name>
+  </file>
+  <needs_network/>
+  <is_wrapper/>
+</version>

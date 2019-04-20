@@ -1,0 +1,16 @@
+<plan_classes>
+    <plan_class>
+        <name>vbox64_mt</name>
+        <virtualbox/>
+        <is64bit/>
+        <vm_accel_required/>
+        <min_vbox_version>30200</min_vbox_version>
+        <min_ncpus>1</min_ncpus>
+        <max_threads>32</max_threads>
+    </plan_class>
+    <plan_class>
+        <name>cuda</name>
+        <gpu_type>nvidia</gpu_type>
+        <cuda/>
+    </plan_class>
+</plan_classes>
