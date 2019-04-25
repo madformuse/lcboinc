@@ -1,7 +1,7 @@
 <job_desc>
     <task>
         <application>client</application>
-        <command_line>-user boinc -password supersecure -lc0 leela_1.0_x86_lc0.exe -train-only -num-games 1 </command_line>
+        <command_line>-user boinc -password supersecure -lc0 leela_1.0_x86_lc0.exe -train-only -parallelism 1 -num-games 1 </command_line>
         <multi_process/>
         <append_cmdline_args/>
     </task>
