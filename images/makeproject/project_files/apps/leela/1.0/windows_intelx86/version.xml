@@ -9,11 +9,9 @@
   </file>
   <file>
     <physical_name>leela_1.0_x86_lc0.exe</physical_name>
-    <copy_file/>
   </file>
   <file>
     <physical_name>libopenblas.dll</physical_name>
-    <copy_file/>
   </file>
   <file>
     <physical_name>leela_1.0_x86_job.xml</physical_name>

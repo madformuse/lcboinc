@@ -2,6 +2,7 @@
     <task>
         <application>client</application>
         <command_line>-user boinc -password supersecure -lc0 leela_1.0_cuda_lc0.exe -train-only -num-games 1 -gpu $GPU_DEVICE_NUM </command_line>
+        <exec_dir>$PROJECT_DIR</exec_dir>
         <multi_process/>
         <append_cmdline_args/>
     </task>
