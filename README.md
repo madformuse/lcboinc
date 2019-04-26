@@ -35,7 +35,7 @@ At the moment it will log into lczero.org as user "boinc". I'm planning to chang
 
 ## Stopping Containers
 
-In the samme directory (once you've exited from bash) just run "docker-compose down -v". The -v also removes the data volumes so you'll be starting with a blank slate next time. If you want to keep your existing mysql data then just omit that option.
+In the same directory (once you've exited from bash) just run "docker-compose down -v". The -v also removes the data volumes so you'll be starting with a blank slate next time. If you want to keep your existing mysql data then just omit that option.
 
 ## Admin Page
 
