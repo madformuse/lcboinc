@@ -20,7 +20,7 @@ docker-compose exec apache bash
 
 su boincadm
 
-Then run one of the following commands. First is Test (T52), second is Main (T40). Each one of these commands causes 2 games to be generated due to 1) BOINCs default preference to create 2 results per WorkUnit for validation and 2) temprary limited parallelism to 1 on GPUs to prevent accidental short game bias
+Then run one of the following commands. First is Test (T52), second is Main (T40). Each one of these commands causes 2 games to be generated due to 1) BOINCs default preference to create 2 results per WorkUnit for validation and 2) temporarily limited parallelism to 1 on GPUs to prevent accidental short game bias
 
 bin/create_work --appname leela --wu_template templates/test_in --result_template templates/test_out
 
@@ -29,7 +29,7 @@ bin/create_work --appname leela --wu_template templates/main_in --result_templat
 
 ## Generating Games
 
-Simply connect the BOINC client to http://127.0.0.1/lcboinc (might have to wait a minute when you've started it) and it should behave like anyother project, downloading the neccassary files and running the tasks you created.
+Simply connect the BOINC client to http://127.0.0.1/lcboinc (might have to wait a minute when you've started it) and it should behave like any other project, downloading the neccassary files and running the tasks you created.
 
 At the moment it will log into lczero.org as user "boinc". I'm planning to change this to a more identifiable (preferably user specified) name.
 
@@ -50,7 +50,7 @@ Maybe it would be easier to list the features :)
 
 So far it's very limited in what you can do. You have to manually create the work, it uses a generic account on lczero, it does not take advantage of parallelism (so it's not very efficient), it only works on Windows, no OpenCL support, no Mac support, it's not secure.
 
-There are some good things to look forward to though! It automatically downloads the correct software for the backend you can support, runs one instance of the client per GPU or CPU core (typically one or the other), you can take advantage of BOINC features like only running when idle.
+There are some good things to look forward to though! It automatically downloads the correct software for the backend you can support (currently CPU or Cuda), runs one instance of the client per GPU or CPU core (typically one or the other), you can take advantage of BOINC features like only running when idle. In the future I would also like to show some graphics while it's generating games but I'm pretty sure this would mean rewriting the client, so it's not at the top of my list. More important is automatic work generation, parallelism, other OS support, game batches instead of single games for efficiency, linking time limit to next net creation on lczero.org, credit assignment, security, load testing etc etc.
 
 ## Contributing
 
