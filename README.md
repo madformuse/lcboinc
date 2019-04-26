@@ -44,6 +44,10 @@ There is an administrative page which you can browse to to query the database to
 cd html/ops
 htpasswd -c .htpasswd username
 
+## Why tom.exe?!
+
+Am I the only one who does that? :) The client needed 2 modifications to work with BOINC as I'm doing it now. Firstly I needed the ability to limit how many games were generated (or we'd only ever have 1 task). Secondly, as BOINC insists that all files with the same name are identical it didn't take very kindly to different versions of lc0.exe to support BLAS or Cuda backends. For this reason I added the ability to provide the name of the engine on the command line. One of the next tasks on my list is to formalize my changes and submit a pull request via the offical channels so I can replace this tom.exe rubbish with client.exe. I've spoken to Crem and Tilps about my changed and they don't think it's a problem.
+
 ## Progress
 
 Maybe it would be easier to list the features :) 
