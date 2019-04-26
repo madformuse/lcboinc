@@ -1,5 +1,7 @@
 # Lcboinc
 
+![lcboinc in action](https://github.com/madformuse/lcboinc/blob/master/Running.PNG?raw=true)
+
 Only supports games on Windows at the minute I'm afraid. Will change soon!
 
 ## Prerequisites
