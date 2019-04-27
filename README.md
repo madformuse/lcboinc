@@ -14,20 +14,13 @@ If you want to be able to build the docker images you will need to install Git L
 
 Clone repository (after installing Git LFS) and cd to new directory. Run "docker-compose up -d --build". This will build the neccasary images and start up the containers.
 
-## Creating Work
-
-I haven't yet implemented the automated creation of work so if you want to test game generation you would need to first connect to the container...
+## Connecting to container
 
 docker-compose exec apache bash
 
 su boincadm
 
-Then run one of the following commands. First is Test (T52), second is Main (T40). Each one of these commands causes 2 games to be generated due to 1) BOINCs default preference to create 2 results per WorkUnit for validation and 2) temporarily limited parallelism to 1 on GPUs to prevent accidental short game bias
-
-bin/create_work --appname leela --wu_template templates/test_in --result_template templates/test_out
-
-bin/create_work --appname leela --wu_template templates/main_in --result_template templates/main_out
-
+Leela app is in apps/ templates in templates/ etc etc
 
 ## Generating Games
 
@@ -54,7 +47,7 @@ Am I the only one who does that? :) The client needed 2 modifications to work wi
 
 Maybe it would be easier to list the features :) 
 
-So far it's very limited in what you can do. You have to manually create the work, it uses a generic account on lczero, it does not take advantage of parallelism (so it's not very efficient), it only works on Windows, no OpenCL support, no Mac support, it's not secure.
+So far it's very limited in what you can do. It uses a generic account on lczero, it does not take advantage of parallelism (so it's not very efficient), it only works on Windows, no OpenCL support, no Mac support, it's not secure.
 
 There are some good things to look forward to though! It automatically downloads the correct software for the backend you can support (currently CPU or Cuda), runs one instance of the client per GPU or CPU core (typically one or the other), you can take advantage of BOINC features like only running when idle. In the future I would also like to show some graphics while it's generating games but I'm pretty sure this would mean rewriting the client, so it's not at the top of my list. More important is automatic work generation, parallelism, other OS support, game batches instead of single games for efficiency, linking time limit to next net creation on lczero.org, credit assignment, security, load testing etc etc.
 
