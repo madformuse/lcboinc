@@ -114,12 +114,6 @@
             <cmd>file_deleter -d 3</cmd>
         </daemon>
         <daemon>
-            <cmd>script_assimilator --app boinc2docker --script "boinc2docker_assimilator files"</cmd>
-        </daemon>
-        <daemon>
-            <cmd>sample_trivial_validator -app boinc2docker</cmd>
-        </daemon>
-        <daemon>
             <cmd>make_work --wu_name test_nodelete --cushion 100</cmd>
         </daemon>
         <daemon>
