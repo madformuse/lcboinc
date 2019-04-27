@@ -1,5 +1,8 @@
 FROM boinc/server_makeproject:4.0.1-b2d
 
+# Copy our version into image
+COPY makeproject-step2.sh /usr/local/bin/
+
 # dont need built-in boinc2docker app
 RUN rm -rf $PROJECT_ROOT/apps/boinc2docker
 

@@ -119,5 +119,11 @@
         <daemon>
             <cmd>sample_trivial_validator -app boinc2docker</cmd>
         </daemon>
+        <daemon>
+            <cmd>make_work --wu_name test_nodelete --cushion 100</cmd>
+        </daemon>
+        <daemon>
+            <cmd>make_work --wu_name main_nodelete --cushion 100</cmd>
+        </daemon>
     </daemons>
 </boinc>
