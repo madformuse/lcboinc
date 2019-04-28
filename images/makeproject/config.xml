@@ -114,10 +114,10 @@
             <cmd>file_deleter -d 3</cmd>
         </daemon>
         <daemon>
-            <cmd>make_work --wu_name test_nodelete --cushion 100</cmd>
+            <cmd>make_work --wu_name test_nodelete --cushion 10</cmd>
         </daemon>
         <daemon>
-            <cmd>make_work --wu_name main_nodelete --cushion 100</cmd>
+            <cmd>make_work --wu_name main_nodelete --cushion 10</cmd>
         </daemon>
     </daemons>
 </boinc>
