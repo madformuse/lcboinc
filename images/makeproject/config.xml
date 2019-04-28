@@ -115,9 +115,13 @@
         </daemon>
         <daemon>
             <cmd>make_work --wu_name test_nodelete --cushion 10</cmd>
+            <pid_file>test</pid_file>
+            <output>test</output>
         </daemon>
         <daemon>
             <cmd>make_work --wu_name main_nodelete --cushion 10</cmd>
+            <pid_file>main</pid_file>
+            <output>main</output>
         </daemon>
     </daemons>
 </boinc>
